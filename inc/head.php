@@ -135,6 +135,7 @@ function trunc($phrase, $max_words) {
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/google.charts.customs.js"></script>
     <script src="js/custom-scripts.js"></script>
+    <script src="js/jquery.PrintArea.js"></script>
     <script type="text/javascript">
    
     // Load the Visualization API.
@@ -331,6 +332,17 @@ function trunc($phrase, $max_words) {
                 }, 19000);
             });
         })(jQuery);
+        </script>
+
+        <script>
+        $(document).ready(function(){
+            $("#printButton").click(function(){
+                var mode = 'iframe'; //popup
+                var close = mode == "popup";
+                var options = { mode : mode, popClose : close};
+                $("div.printableArea").printArea( options );
+            });
+        });
         </script>
 		
 		

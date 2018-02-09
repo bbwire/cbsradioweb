@@ -223,7 +223,7 @@ Current statement
                                         <!--<div class="box-icon">
                                             <span class="fa fa-4x fa-css3"></span>
                                         </div>-->
-                                        <div class="infos">
+                                        <div class="infos printableArea">
                                             <div class="col-sm-3">
 											<h5 class="blacks">PERIOD</h5>
 											07 Feb 2018 - 09 Feb 2018 
@@ -333,11 +333,16 @@ Current statement
 											</div>
 											<br>
 											<div class="clearfix"></div>
+											
                                             <!--<p>nulla dolore necessitatibus doloremque exercitationem sequi dolorem architecto perferendis quas aperiam debitis dolor soluta!</p>
                                             <a href="" class="btn">Link</a>-->
 											<div class="clearfix"></div>
                                         </div>
 										<div class="clearfix"></div>
+										<hr>
+										<div >
+											<a href="javascript:void(0);" id="printButton" class="btn btn-primary">Print</a> 
+										</div>
                                     </div>
                                 </div>
                                 
